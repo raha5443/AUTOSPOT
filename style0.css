@@ -1,0 +1,350 @@
+/*
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    backface-visibility: hidden;
+    background-color: transparent;
+}
+
+body{
+    animation: changebg 5s infinite
+    alternate linear;
+}
+@keyframes changebg{
+    0%{
+        background: #ee6055;
+    
+}
+    25%{
+        background: #60d394;
+    }
+    50{
+        background: #aaf683;
+    }
+    75%{
+        background: #ffd97d;
+    }
+    100%{
+        background: 
+    }
+}*/
+#items1{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+.img1{
+    height: 90px; 
+    padding: 10px;
+}
+#items1:hover{
+    color: red;
+    border: none;
+}
+.backgroundimg{
+    background-image: url('https://res.cloudinary.com/dxujeg5en/image/upload/v1669302394/modified-mazda-4k-4t_rfmpjx.jpg');
+    background-size: cover;
+    height: 90vh;
+}
+.one{
+    padding-top: 330px;
+    color: white;
+}
+btncolor{
+    background-color: red;
+}
+.h11{
+    padding-top: 30px;
+}
+.h22{
+    padding-top: 10px;
+    margin-bottom: 30px;
+    color: gainsboro;
+}
+.premium{
+    height: 100px;
+}
+.paraone{
+    color: #fca311;
+    font-size; 10px;
+}
+.prename{
+    font-size: 20px;
+}
+.cardlayout1{
+    margin-top: 5px;
+    padding-left: 20px;
+    border: none;
+    background-color: white;
+    width: 120vh;
+    padding-top: 5px;
+    text-align:center;
+}
+.cardlayout2{
+    margin-top: 5px;
+    padding-left: 20px;
+    border: none;
+    background-color: white;
+    width: 120vh;
+    padding-top: 5px;
+    text-align:center;
+}
+.servicesimg{
+    height: 101px;
+    padding-right: 30px;
+}
+.cardlayout3{
+    margin-top: 5px;
+    padding-left: 20px;
+    border: none;
+    background-color: white;
+    width: 120vh;
+    padding-top: 5px;
+    text-align:center;
+}
+.card4{
+    padding-top: 20px;
+}
+.cardlayout4{
+    grid-gap: 3rem;
+    background-color: #ffffff;
+    width: 120vh;
+    margin-top: 5px;
+    padding-top: 15px;
+    
+    border-top-left-radius: 20px;
+}
+.spoilersimg{
+    height: 200px;
+}
+.viewpoint{
+    padding-right: 100px;
+    
+}
+.card4head{
+    padding-right: 100px;
+    font-size: 30px;
+    font-family: sans-serif;
+    justify-content: flex-start;
+}
+.windows{
+    height: 200px;
+}
+.RoofScoopsimg{
+    height: 21vh;
+}
+.cardlayout4{
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    box-shadow: 10px 10px 5px #dae6eb;
+}
+.paymenttxt{
+    padding-top: 120px;
+}
+.offerimg1{
+    height: 300px;
+    padding-top: 100px;
+    margin-top: 20px;
+}
+.visaimg{
+    height: 40px;
+    margin-left: 40px;
+    padding-top: 12px;
+    padding-bottom: 2px;
+    padding-left: 70px;
+    
+}
+.backgroundimg1{
+    background-image: linear-gradient(#391010,lightpink);
+    background-size: cover;
+    height: 200vh;
+    
+    
+    
+}
+.maplocation1img{
+    height: 60vh;
+    width: 570px;
+   margin: 10px;
+    
+}
+.cardlayout6{
+    pa
+}
+.contactusb{
+    padding-top: 30px;
+    color: white;
+}
+.textus{
+    color: white;
+}
+.social-icons{
+    padding-top: 30px;
+    margin: 30px;
+}
+.fa-brands{
+    justify-content: space-between;
+    margin: 20px;
+    color: azure;
+}
+.fa-brands:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) { 
+    
+    .cardlayout6{
+    padding-top: 70px;
+}
+    
+    .maplocation1img{
+        height: 80vh;
+        width: 600px;
+   
+    
+}
+
+}
+@media (max-width: 1000px) {
+    
+    .cardlayout6{
+    padding-top: 70px;
+}
+    
+    .maplocation1img{
+        height: 80vh;
+        width: 600px;
+   
+    
+}
+
+}
+@media (max-width: 575px) { 
+    
+    .maplocation1img {
+        height: 80vh;
+        width: 450px;
+   
+    
+}
+
+
+}
+@media (max-width: 466px) { 
+    
+    .maplocation1img {
+        height: 80vh;
+        width: 350px;
+   
+    
+}
+
+}
+@media (max-width: 660px) {
+    
+    .cardlayout6{
+    padding-top: 70px;
+}
+    
+    .maplocation1img {
+        height: 80vh;
+        width: 560px;
+   
+    
+}
+
+
+}
+@media (max-width: 1200px) { 
+    
+    .maplocation1img {
+        height: 80vh;
+        width: 450px;
+        padding-left: 2px;
+        
+   
+    
+}
+}
+
+@media (max-width: 510px) {
+    
+    .cardlayout6{
+    padding-top: 50px;
+}
+    
+    .maplocation1img {
+        height: 80vh;
+        width: 340px;
+   
+    
+}
+}
+@media (max-width: 390px) {
+    
+    .cardlayout6{
+    padding-top: 70px;
+}
+    
+    .maplocation1img {
+        height: 80vh;
+        width: 350px;
+   
+    
+}
+
+
+}
+@media (max-width: 360px) {
+    
+    .cardlayout6{
+    padding-top: 70px;
+}
+    
+    .maplocation1img {
+        height: 50vh;
+        width: 250px;
+   
+    
+}
+
+
+}
+
+
